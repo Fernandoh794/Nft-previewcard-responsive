@@ -1,0 +1,146 @@
+body {
+  background-color: #0d1a2d;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  overflow: hidden;
+}
+
+.box-Content {
+  height: 80vh;
+  width: 70vw;
+  background-color: aliceblue;
+  background-color: #15273f;
+  color: white;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, 0.35);
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.img {
+  height: 40vh;
+
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+}
+
+.img img {
+  height: 30vh;
+  width: max-content;
+  border-radius: 15px;
+}
+.text {
+   padding-left: 20px;
+}
+
+.text p {
+  font-size: 1.2em;
+}
+
+.text span {
+    font-size: 0.7em;
+    color: #6A798D;
+}
+
+
+.money {
+    display: flex;
+    align-items: center;
+    color: #00FFF8;
+}
+.money img {
+    height: 25px;
+}
+
+.days {
+    display: flex;
+    align-items: center;
+    color: #6A798D;
+}
+
+
+.row1 {
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    justify-content: space-between;
+   
+    
+}
+
+
+
+.linha {
+    height: 2px;
+    width: 90%;
+    background-color: #1c1a1a;
+    margin: auto;
+}
+
+.created {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+
+    
+}
+
+
+.created img{
+height: 40px;
+border-radius: 50%;
+border: solid 2px wheat;
+}
+
+.created p {
+    font-size: 0.7em;
+    color: #6A798D;
+}
+
+.created span {
+    color: white;
+}
+@media (min-width: 450px) { 
+    .box-Content {
+        height: 70vh;
+        
+    }
+
+    .img img {
+        width: 80%;
+    }
+
+    .text  p {
+        font-size: 1.8em;
+        margin-left: 25px;
+    }
+    .text span {
+        font-size: 0.8em;
+        margin-left: 25px;
+    
+    }
+    .money {
+        margin-left: 25px;
+        
+    }
+
+    .linha {
+        width: 80%;
+    }
+
+    .created {
+        margin-left: 25px;
+    }
+
+ }
